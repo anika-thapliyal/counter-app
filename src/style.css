@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.number{
+    font-size: 6rem;
+}
+
+.btn-container{
+    width: 50rem;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+
+.increment{
+    padding: 10px 20px;
+    font-size: 2rem;
+    border-radius: 100px;
+    cursor: pointer;
+    background-color: gray;
+    border: none;
+    color: white;
+}
+
+.decrement{
+    padding: 10px 24px;
+    font-size: 2rem;
+    border-radius: 100px;
+    cursor: pointer;
+    background-color: gray;
+    border: none;
+    color: white;
+}
